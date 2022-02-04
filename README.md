@@ -1,9 +1,9 @@
 # PerceiverIO Classifier
 
-Implementation of a Perciever IO classifier in Pytorch by Eric Buehler
+Implementation of a Perceiver IO classifier in Pytorch by Eric Buehler
 
-## PercieverIO
-The PercieverIO used in this model is lucidrains's implemenation, found at https://github.com/lucidrains/perceiver-pytorch.
+## PerceiverIO
+The PerceiverIO used in this model is lucidrains's implemenation, found at https://github.com/lucidrains/perceiver-pytorch.
 
 ## Training
 The model was trained for 50 epochs. I used MSE (Mean Squared Error) loss for the criterion, an Adam optimizer (lr = 0.0001), and an ExponentialLR schedular with a gamma of 0.9.
