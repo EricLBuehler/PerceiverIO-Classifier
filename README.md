@@ -1,6 +1,6 @@
 # PerceiverIO-Classifier
 ## About
-This a PercieverIO based classifier. By epoch 1, it achieves 97% accuracy and a test loss of 0.004.
+This a PercieverIO based classifier. By epoch 1, it achieves 97% accuracy and a test loss of 0.005.
 It has been trained on the MNIST dataset. This model is built with Pytorch.
 
 ## PercieverIO
