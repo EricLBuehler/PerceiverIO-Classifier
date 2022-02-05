@@ -22,6 +22,12 @@ Below is an example of a test after epoch 50:
 
 Accuracy, and test/train loss plots are provided below:
 
+![](images/train_loss.png)
+
+![](images/test_loss.png)
+
+![](images/accuracy.png)
+
 
 
 
