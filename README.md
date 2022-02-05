@@ -1,6 +1,6 @@
 # PerceiverIO Classifier
 
-Implementation of a Perceiver IO classifier in Pytorch by Eric Buehler
+Implementation of a Perceiver IO classifier in PyTorch by Eric Buehler
 
 ## PerceiverIO
 The PerceiverIO used in this model is lucidrains's implemenation, found at https://github.com/lucidrains/perceiver-pytorch.
