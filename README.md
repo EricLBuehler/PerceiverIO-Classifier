@@ -11,9 +11,12 @@ The model was trained for 50 epochs. I used MSE (Mean Squared Error) loss for th
 By epoch 1 of training on the MNIST dataset, the model achieves 95% accuracy and a test loss of 0.007.
 
 Below is an example of a test after epoch 1:
-![](images/image_epoch_1.png)
+![](images/image_epoch_0.png)
 
 After training for 50 epochs, the model achieves 98% accuracy, and a test loss of 0.002.
+
+Below is an example of a test after epoch 50:
+![](images/image_epoch_49.png)
 
 Accuracy, and test/train loss plots are provided below:
 
