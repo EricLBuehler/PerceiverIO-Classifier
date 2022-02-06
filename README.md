@@ -75,7 +75,7 @@ The variable ```modelname``` is used to provide some automation of version contr
 To run the training  code, open it in Google Colab. Set the modelname (or potentially prefix) to your own value and run the code. It will train the model for 50 epochs. Under the ```Important variables``` section in the code, you can find the definition of many simpler hyperparameters like the image size and the batch sizes. Under the ```Autoload/define model and setup criterion, optimizer, and scheduler```, and in the ```Define criterion, optimizer, and scheduler``` subsection, the loss, learning rate, optimizer, and scheduler are all defined.
 
 ## Figures 
-I have also attached a program to generate figures. Similarly to the training program, this program also requires that ```modelname``` and ```prefix``` be set to their appropriate values. This code will generate and save the figures for model ```modelname```, in the ``**prefix**/models/**modelname** directory.
+I have also attached a program to generate figures. Similarly to the training program, this program also requires that ```modelname``` and ```prefix``` be set to their appropriate values. This code will generate and save the figures for model ```modelname```, in the **prefix**/models/**modelname** directory.
 
 ## Enviornment
 All codes are designed to be run on Google Colab. It is highly recommended to run the train code with GPU, but not required. The figure generation code does not require a GPU.
