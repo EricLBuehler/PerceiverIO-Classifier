@@ -4,7 +4,7 @@ Implementation of a Perceiver IO classifier in PyTorch by Eric Buehler
 
 ## PerceiverIO
 The PerceiverIO used in this model is lucidrains's implemenation, found at https://github.com/lucidrains/perceiver-pytorch.
-
+[Explanation of PerceiverIO paper and architecture](https://www.youtube.com/watch?v=P_xeshTnPZg)
 ## Training
 The model was trained for 50 epochs. I used MSE (Mean Squared Error) loss for the criterion, an Adam optimizer (lr = 0.0001), and an ExponentialLR schedular with a gamma of 0.9.
 The image size used is 28x28, with a color depth of 1 (black and white). The batch size for training is 64 and the corresponding test batch size is 1000.
