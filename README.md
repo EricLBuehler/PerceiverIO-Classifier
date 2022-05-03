@@ -34,7 +34,7 @@ Accuracy, and test/train loss plots are provided below:
 This model is designed to be trained on Google Colab. The use of a GPU is highly reccommended, and I used a P100.
 
 The below code will create a "Colab Notebooks/PercieverIO_Classifier" directory in your Google Drive. 
-```
+```python
 modelname="2_4_22_m1"
 
 
